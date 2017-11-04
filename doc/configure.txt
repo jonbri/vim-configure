@@ -1,0 +1,32 @@
+*configure.txt*  Configure VIM
+
+Author:  Jonathan Brink
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                    *configure*
+
+Plugin for quickly configuring Vim.
+
+                                                *<leader>ev*
+<leader>ev                      Edit .vimrc
+
+                                                *<leader>sv*
+<leader>sv                      Source .vimrc
+
+                                                *<leader>egv*
+<leader>egv                     Edit .gvimrc
+
+                                                *<leader>sgv*
+<leader>sgv                     Source .gvimrc
+
+                                                *<leader>s*
+<leader>s                       Source current buffer
+
+
+ABOUT                                           *spaced-about*
+
+Grab the latest version or report a bug on GitHub:
+
+https://github.com/jonbri/vim-configure
+
+ vim:tw=78:et:ft=help:norl:
