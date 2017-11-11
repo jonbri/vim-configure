@@ -5,17 +5,15 @@ if exists("g:loaded_configure") || &cp || v:version < 700
 endif
 let g:loaded_configure = 1
 
-" edit/source .vimrc
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
-nnoremap <leader>sv :source $MYVIMRC<cr>
+" edit .vimrc
+nnoremap ccv :vsplit $MYVIMRC<cr>
 
-" edit/source .gvimrc
-nnoremap <leader>egv :vsplit $MYGVIMRC<cr>
-nnoremap <leader>sgv :source $MYGVIMRC<cr>
+" edit .gvimrc
+nnoremap ccg :vsplit $MYGVIMRC<cr>
 
 " source current buffer
 function! SourceCurrentBuffer()
   source %
   echo "sourced"
 endfunction
-nnoremap <leader>s :call SourceCurrentBuffer()<CR>
+nnoremap css :call SourceCurrentBuffer()<CR>

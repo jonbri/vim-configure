@@ -2,12 +2,8 @@
 Plugin for quickly configuring Vim
 
 ## Mappings
-`<leader>ev` -> Edit .vimrc
+`ccv` -> Edit .vimrc
 
-`<leader>sv` -> Source .vimrc
+`ccg` -> Edit .gvimrc
 
-`<leader>egv` -> Edit .gvimrc
-
-`<leader>sgv` -> Source .gvimrc
-
-`<leader>s` -> Source current buffer
+`css` -> Source current buffer

@@ -7,20 +7,14 @@ INTRODUCTION                                    *configure*
 
 Plugin for quickly configuring Vim.
 
-                                                *<leader>ev*
-<leader>ev                      Edit .vimrc
+                                                *ccv*
+ccv                       Edit .vimrc
 
-                                                *<leader>sv*
-<leader>sv                      Source .vimrc
+                                                *ccg*
+ccg                       Edit .gvimrc
 
-                                                *<leader>egv*
-<leader>egv                     Edit .gvimrc
-
-                                                *<leader>sgv*
-<leader>sgv                     Source .gvimrc
-
-                                                *<leader>s*
-<leader>s                       Source current buffer
+                                                *css*
+css                       Source current buffer
 
 
 ABOUT                                           *spaced-about*
